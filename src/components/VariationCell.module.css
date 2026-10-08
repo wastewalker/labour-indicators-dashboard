@@ -1,0 +1,31 @@
+.variation {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.arrow {
+  font-size: 9px;
+}
+.up .arrow {
+  color: var(--accent);
+}
+.down .arrow {
+  color: var(--accent-2);
+}
+.flat .arrow {
+  color: var(--muted);
+}
+.gap {
+  color: var(--muted);
+  cursor: help;
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

@@ -1,0 +1,30 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.draft {
+  color: var(--amber-fg);
+  background: var(--amber-bg);
+}
+.published {
+  color: var(--green-fg);
+  background: var(--green-bg);
+}
+.archived {
+  color: var(--muted);
+  background: var(--surface-2);
+}
