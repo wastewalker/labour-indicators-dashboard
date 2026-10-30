@@ -24,7 +24,7 @@
     "mock-api": "node e2e/mock-api/server.mjs"
   },
   "dependencies": {
-    "next": "^16.4.0",
+    "next": "^16.4.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "server-only": "^0.0.1"
@@ -41,7 +41,7 @@
     "@vitejs/plugin-react": "^6.1.2",
     "@vitest/coverage-v8": "^5.0.3",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.4.0",
+    "eslint-config-next": "^16.4.3",
     "jsdom": "^29.1.1",
     "prettier": "^3.9.9",
     "typescript": "^6.0.3",
